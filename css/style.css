@@ -704,3 +704,37 @@ a {
     margin: 0 auto;
 }
 /*Features*/
+.feature {
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+.feature__image {
+    width: 100%;
+}
+
+.feature_heading {
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
+}
+/* Showcase Block */
+
+.block-showcase__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .block-showcase .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .block-showcase__image {
+        width: auto;
+    }
+}
