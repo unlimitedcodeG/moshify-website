@@ -568,6 +568,11 @@ a {
     background: #000;
     color: #7b858b;
 }
+.block--dark h1,
+.block--dark h2,
+.block--dark h3 {
+    color: #fff;
+}
 
 .block--dark .block__heading {
     color: #fff;
