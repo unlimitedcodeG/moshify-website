@@ -1,0 +1,22 @@
+{
+  "name": "copy-moshify",
+  "version": "1.0.0",
+  "description": "Personal website deploy practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlimitedcodeG/moshify-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlimitedcodeG/moshify-website/issues"
+  },
+  "homepage": "https://github.com/unlimitedcodeG/moshify-website#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
