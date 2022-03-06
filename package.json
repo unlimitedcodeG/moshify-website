@@ -16,7 +16,8 @@
     "url": "https://github.com/unlimitedcodeG/moshify-website/issues"
   },
   "homepage": "https://github.com/unlimitedcodeG/moshify-website#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+  "devDependencies": {},
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
   }
 }
